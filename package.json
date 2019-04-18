@@ -1,0 +1,29 @@
+{
+  "name": "json-forth",
+  "version": "1.0.0",
+  "description": "An interpreter for concatenative languages with JSON syntax.",
+  "main": "index.js",
+  "types": "index.d.ts",
+  "files": [ "index.js", "index.d.ts" ],
+  "scripts": {
+    "prepare": "npm run build",
+    "build": "tsc "
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vivintsolar-oss/json-forth.git"
+  },
+  "keywords": [
+    "interpreter",
+    "forth"
+  ],
+  "author": "Logan R. Kearsley",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/vivintsolar-oss/json-forth/issues"
+  },
+  "homepage": "https://github.com/vivintsolar-oss/json-forth#readme",
+  "devDependencies": {
+    "typescript": "^3.4.3"
+  }
+}
